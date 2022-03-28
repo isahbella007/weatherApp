@@ -1,0 +1,13 @@
+.details-container{ 
+    padding: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    position: relative;
+    font-size: 15px;
+    top: 20px;
+    /* font-weight: bold; */
+    color: var(--main-text-color);
+}
+.right{ 
+   margin-left: auto;
+}

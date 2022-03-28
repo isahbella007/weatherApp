@@ -1,0 +1,34 @@
+.card1 {
+  border-radius: var(--main-border-radius);
+}
+
+.result-container {
+  margin: 0 auto;
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 50px 1fr 1fr;
+  border-radius: var(--main-border-radius);
+  -webkit-box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
+  background-color: var(--bg-color--card);
+  color: var(--main-text-color);
+  width: 100%;
+  max-width: 80%;
+  min-height: 80px;
+}
+.CurrentDay {
+  grid-row-start: 1;
+
+  grid-row-end: 4;
+}
+
+.currentDayDetail {
+  /* background-color: orange; */
+  border-radius: var(--main-border-radius);
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.upComingDay {
+  border-radius: var(--main-border-radius);
+}

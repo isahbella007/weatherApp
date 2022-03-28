@@ -1,0 +1,20 @@
+.upComingDays-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  font-size: 15px;
+  top: 20px;
+  color: var(--main-text-color);
+
+}
+ul {
+  list-style-type: none;
+  padding: 1rem;
+  /* margin: 0;
+  padding: 0;
+  overflow: hidden; */
+  
+}
+li{
+  padding: 0.1rem;
+}
